@@ -22,6 +22,48 @@ This project applies PPO to:
 Install the dependencies with:
 ```bash
 pip install stable-baselines3[extra] gym matplotlib
+```
 
 ## 🚀 How to Run
 
+1. Clone the repository:
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+```
+2. Open the notebook:
+```bash
+jupyter notebook PPO_CartPole_LunarLander_SB3.ipynb
+```
+3. Run the cells to:
+    - Train PPO agents on CartPole & LunarLander
+    - Evaluate and visualize results
+
+## 📊 Results
+### CartPole
+
+- PPO agent quickly learns to balance the pole.
+
+- Achieves near-perfect performance after sufficient training.
+
+### LunarLander
+
+- PPO agent successfully learns to land the spacecraft.
+
+- More training required compared to CartPole due to higher complexity.
+
+## 🔮 Future Work
+
+- Extend to continuous action spaces (e.g., Pendulum, BipedalWalker).
+
+- Compare PPO with other RL algorithms (DQN, A2C, SAC).
+
+- Implement custom reward shaping for improved training performance.
+
+## 📚 References
+
+- [Stable-Baselines3 Documentation](https://stable-baselines3.readthedocs.io/)
+
+- [OpenAI Gym](https://gymnasium.farama.org/)
+
+- [PPO Paper: "Proximal Policy Optimization Algorithms"](https://arxiv.org/abs/1707.06347)
