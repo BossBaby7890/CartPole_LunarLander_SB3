@@ -1,6 +1,24 @@
-PPO-CartPole & LunarLander: Deep Reinforcement Learning with Stable Baselines3
-🚀 Project Overview
-This repository demonstrates the implementation of the Proximal Policy Optimization (PPO) algorithm, a powerful and popular Reinforcement Learning (RL) technique, on two classic Gymnasium environments: CartPole-v1 and LunarLander-v3.
+# PPO Reinforcement Learning on CartPole & LunarLander
 
-The entire workflow, including setup, vectorized training, and visual evaluation, is contained within the companion Jupyter/Colab notebook (PPO_CartPole_LunarLander_SB3.ipynb).
+This project demonstrates the implementation of **Proximal Policy Optimization (PPO)** using [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) to solve two classic reinforcement learning environments:
 
+- **CartPole-v1**
+- **LunarLander-v2**
+
+The included Jupyter Notebook (`PPO_CartPole_LunarLander_SB3.ipynb`) trains agents on both environments and evaluates their performance.
+
+---
+
+## 📌 Project Overview
+Reinforcement learning (RL) is a machine learning paradigm where agents learn to interact with environments by maximizing cumulative rewards. PPO is a policy-gradient method that strikes a balance between simplicity, sample efficiency, and performance stability.
+
+This project applies PPO to:
+- **CartPole**: A simple control environment where the agent must balance a pole on a cart.
+- **LunarLander**: A more challenging environment where the agent must land a spacecraft safely.
+
+---
+
+## ⚙️ Requirements
+Install the dependencies with:
+```bash
+pip install stable-baselines3[extra] gym matplotlib
