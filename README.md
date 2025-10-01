@@ -22,3 +22,6 @@ This project applies PPO to:
 Install the dependencies with:
 ```bash
 pip install stable-baselines3[extra] gym matplotlib
+
+## 🚀 How to Run
+
